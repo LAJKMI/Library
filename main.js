@@ -361,18 +361,25 @@ class UI {
 
             if (!title || !author) {
                 alert('Please fill in both the title and author fields.');
-                return; // Stop execution if fields are empty
+                return;
             }
 
             const book = new Book(title, author, Date.now())
 
-            // allNotes.newNote = newNote
-            const bookCheck = listType.some(b => b.title === book.title && b.author === book.author)
+            const bookCheckRead = readList.some(b => b.title === book.title && b.author === book.author)
+            const bookCheckUnRead = unReadList.some(b => b.title === book.title && b.author === book.author)
+            const bookCheckFavorite = favoriteList.some(b => b.title === book.title && b.author === book.author)
 
-
-
-            if (bookCheck) {
-                alert('This book already exists in this list')
+            if (bookCheckRead) {
+                alert('This book already exists in "Read Books" list')
+                UI.clearFields()
+                return
+            } else if (bookCheckUnRead) {
+                alert('This book already exists in "Want To Read" list')
+                UI.clearFields()
+                return
+            } else if (bookCheckFavorite) {
+                alert('This book already exists in "Favorite" list')
                 UI.clearFields()
                 return
             }
