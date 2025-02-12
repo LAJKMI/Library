@@ -1,0 +1,103 @@
+@import '../../partials/mixinsAndVariables';
+
+
+
+/* Od 1000px pa na nize */
+
+@media (max-width: 1000px) {
+
+
+    .tableBtnBox {
+        flex-direction: column;
+    }
+
+    .recommBtn,
+    .addNotesFavorite,
+    .moveToRead,
+    .addNotes {
+        font-size: 18px;
+        width: 150px;
+    }
+
+    .moveToRead {
+        width: 120px;
+    }
+
+    .addNotes,
+    .addNotesFavorite {
+        width: 100px;
+    }
+
+
+}
+
+/* Od 800px pa na nize */
+
+@media (max-width: 800px) {
+    #title {
+        font-size: 54px;
+    }
+
+    input {
+        width: 70%;
+    }
+
+    .u-full-width {
+        border-spacing: 0px 10px;
+    }
+
+
+
+    #formSection {
+        padding-top: 10px;
+    }
+
+    #tutorialOverlay {
+        @include flexCenter();
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+
+    #tutorialXBox {
+        top: -25px;
+        right: 25px;
+    }
+
+    #tutorial {
+        height: 740px;
+    }
+
+    .tableBtnBox {
+        flex-direction: column;
+    }
+
+    .recommBtn {
+        font-size: 14px;
+        width: 120px;
+    }
+
+    td {
+        font-size: 16px;
+    }
+
+    .titleTdBox {
+        gap: 0px;
+    }
+
+    .notesOverlayBox {
+        min-width: 500px;
+    }
+
+    #popUpNotesImg {
+        width: 100%;
+        height: 70%;
+    }
+
+    #notesBox {
+        top: 130px;
+        height: 60%;
+    }
+
+}

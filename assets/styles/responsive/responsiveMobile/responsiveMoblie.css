@@ -1,0 +1,106 @@
+/* Od 550px pa na nize */
+@media (max-width: 550px) {
+  a {
+    font-size: 14px;
+  }
+  th {
+    font-size: 24px;
+  }
+  .addNotes,
+  .addNotesFavorite {
+    width: 80px;
+    font-size: 14px;
+  }
+  .moveToRead {
+    width: 100px;
+    font-size: 14px;
+  }
+  .titleTdBox {
+    gap: 10px;
+  }
+  td {
+    padding: 0px;
+  }
+  td {
+    text-align: center;
+  }
+  th {
+    padding: 0px 10px;
+  }
+  .authorTd {
+    padding: 0px 15px;
+  }
+  #title {
+    font-size: 40px;
+    margin: 0px 5px;
+  }
+  .actionBtn {
+    font-size: 16px;
+  }
+  #openTutorial {
+    width: 40px;
+    height: 40px;
+  }
+  a,
+  .delete {
+    font-size: 14px;
+  }
+  .formInput {
+    width: 60%;
+    font-size: 18px;
+  }
+  #tutorial {
+    height: 640px;
+  }
+  .notesOverlayBox {
+    min-width: 300px;
+    height: 50%;
+  }
+  #notesBox {
+    top: 120px;
+    height: 50%;
+  }
+  #popUpNotesImg {
+    width: 105%;
+    height: 60%;
+  }
+  #text {
+    font-size: 14px;
+  }
+  .pageCounter {
+    font-size: 14px;
+  }
+}
+/* Od 400px pa na nize */
+@media (max-width: 400px) {
+  .tableBox {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  #actionBtnBox {
+    flex-direction: column;
+  }
+  nav {
+    flex-direction: column;
+  }
+  #formSection {
+    padding-bottom: 50px;
+  }
+  #tutorial {
+    height: 440px;
+  }
+  #tutorialXBox {
+    top: -50px;
+    right: 25px;
+  }
+  #notesBox {
+    height: 48%;
+  }
+  #popUpNotesImg {
+    width: 105%;
+    height: 60%;
+  }
+  #text {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=responsiveMoblie.css.map */

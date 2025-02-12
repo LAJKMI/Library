@@ -1,0 +1,354 @@
+@import '../partials/button';
+@import '../partials/input';
+@import '../partials/link';
+@import '../partials/mixinsAndVariables';
+
+// Generalno 
+
+* {
+    font-family: "Gentium Book Plus", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+
+}
+
+body {
+    height: 120dvh;
+    background-image: url(../pictures/bcgPic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+//Header
+
+#header {
+    @include flexCenter();
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+#soundBox {
+    display: grid;
+    width: 32px;
+    height: 32px;
+}
+
+
+
+#soundBtn,
+#noSoundBtn {
+
+    grid-area: 1/1;
+    cursor: pointer;
+    transition: scale .1s ease-in;
+}
+
+#soundBtn:active,
+#noSoundBtn:active {
+    scale: .7;
+}
+
+#noSoundBtn {
+    visibility: hidden;
+}
+
+// Tabela i Forma
+
+#container {
+    padding-top: 20px;
+}
+
+#title {
+    text-align: center;
+    color: $headerColor;
+    font-size: 64px;
+    font-weight: lighter;
+}
+
+#libraryForm {
+    gap: 20px;
+}
+
+#formInputBox {
+    @include flexCenter();
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.formInput {
+    @extend .input !optional;
+
+
+}
+
+.formInput::placeholder {
+    color: $inputTextColor;
+}
+
+#actionBtnBox {
+    @include flexCenter();
+    gap: 20px;
+}
+
+.actionBtn {
+    @extend .button !optional;
+}
+
+
+
+#addToReadBtn {
+    background-color: $addToReadBtn;
+}
+
+// tabela
+
+#formSection {
+    padding-bottom: 150px;
+}
+
+.u-full-width {
+    border: none;
+    border-spacing: 20px;
+    line-height: 1;
+}
+
+.tableBox {
+    @include flexCenter();
+    max-height: 400px;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+        width: 12px;
+        height: 12px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $addToUnreadBtn;
+        border-radius: 6px;
+        border: 2px solid $inputColor;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: $headerColor;
+        border-radius: 6px;
+    }
+}
+
+th,
+td {
+    border: none;
+    color: $textColor;
+    padding-left: 40px;
+}
+
+th {
+    font-size: 32px;
+    font-weight: lighter;
+
+}
+
+td {
+    font-size: 24px;
+
+    &:last-child {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+
+
+.titleTdBox {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.addToRead,
+.addToReadFromRecommended {
+    @include button();
+    background-color: $addToReadBtn;
+}
+
+
+
+.addNotes,
+.addNotesFavorite {
+    @include button();
+    background-color: $addNotesBtn;
+}
+
+.moveToRead {
+    @include button();
+    background-color: $moveToReadBtn;
+}
+
+
+
+.tableBtnBox {
+    @include flexCenter();
+    gap: 10px
+}
+
+
+.delete {
+    @include button();
+    background-color: $deleteBtn;
+    padding: 7px 15px;
+}
+
+
+.addToFavoriteBtn:hover,
+.removeFromFavorite:hover {
+    cursor: pointer;
+}
+
+
+
+nav {
+    @include flexCenter();
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+a {
+    @extend .link !optional;
+}
+
+.chosenTable {
+    color: $selectedTableNav;
+}
+
+/*PopUp Notes*/
+
+
+#tutorialOverlay {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%);
+    width: 700px;
+}
+
+#tutorialXBox {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    cursor: pointer;
+    transition: scale .1s ease-in;
+    background-color: $inputTextColor;
+    padding: 3px;
+    border-radius: 100%;
+
+}
+
+#tutorialX {
+    pointer-events: none;
+
+}
+
+#tutorial {
+    height: 850px;
+}
+
+#openTutorial {
+    cursor: pointer;
+    transition: scale .1s ease-in;
+}
+
+#openTutorial:active {
+    scale: .9;
+}
+
+
+
+.notesOverlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    @include flexCenter();
+    background-color: $popUpBackgroundColor;
+    visibility: hidden;
+}
+
+.notesOverlayBox {
+    min-width: 650px;
+    height: 70%;
+    position: relative;
+    @include flexCenter();
+}
+
+#popUpNotesImg {
+    width: 100%;
+    min-width: 300px;
+    height: 100%;
+    min-height: 250px;
+    transform: rotate(90deg);
+}
+
+.pageCounter {
+    position: absolute;
+    top: -30px;
+    z-index: 30;
+}
+
+#notesBox {
+    position: absolute;
+    top: 40px;
+    width: 70%;
+    height: 90%;
+}
+
+#text {
+    font-size: 16px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: none;
+    background-color: transparent;
+
+    &:focus {
+        border: none;
+        outline: none;
+
+    }
+}
+
+
+
+#pagePlus,
+#pageMinus,
+#x {
+    position: absolute;
+    cursor: pointer;
+    transition: scale .1s ease-in;
+}
+
+#pagePlus {
+    right: 0px;
+}
+
+#pageMinus {
+    left: 0px;
+}
+
+#x {
+    right: 0px;
+    top: 0px;
+}
+
+
+
+#pagePlus:active,
+#pageMinus:active,
+#x:active,
+#tutorialXBox:active {
+    scale: .7;
+}

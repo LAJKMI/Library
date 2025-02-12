@@ -1,0 +1,1266 @@
+[
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen"
+    },
+    {
+        "title": "Frankenstein",
+        "author": "Mary Shelley"
+    },
+    {
+        "title": "Moby Dick",
+        "author": "Herman Melville"
+    },
+    {
+        "title": "The Adventures of Sherlock Holmes",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "Dracula",
+        "author": "Bram Stoker"
+    },
+    {
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde"
+    },
+    {
+        "title": "The Scarlet Letter",
+        "author": "Nathaniel Hawthorne"
+    },
+    {
+        "title": "The Call of the Wild",
+        "author": "Jack London"
+    },
+    {
+        "title": "The Odyssey",
+        "author": "Homer"
+    },
+    {
+        "title": "The Brothers Karamazov",
+        "author": "Fyodor Dostoevsky"
+    },
+    {
+        "title": "War and Peace",
+        "author": "Leo Tolstoy"
+    },
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald"
+    },
+    {
+        "title": "Les Misérables",
+        "author": "Victor Hugo"
+    },
+    {
+        "title": "Anna Karenina",
+        "author": "Leo Tolstoy"
+    },
+    {
+        "title": "The Canterbury Tales",
+        "author": "Geoffrey Chaucer"
+    },
+    {
+        "title": "The Grapes of Wrath",
+        "author": "John Steinbeck"
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell"
+    },
+    {
+        "title": "The Hound of the Baskervilles",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "Sense and Sensibility",
+        "author": "Jane Austen"
+    },
+    {
+        "title": "Wuthering Heights",
+        "author": "Emily Brontë"
+    },
+    {
+        "title": "The Raven",
+        "author": "Edgar Allan Poe"
+    },
+    {
+        "title": "The Metamorphosis",
+        "author": "Franz Kafka"
+    },
+    {
+        "title": "A Tale of Two Cities",
+        "author": "Charles Dickens"
+    },
+    {
+        "title": "The Divine Comedy",
+        "author": "Dante Alighieri"
+    },
+    {
+        "title": "The Last of the Mohicans",
+        "author": "James Fenimore Cooper"
+    },
+    {
+        "title": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas"
+    },
+    {
+        "title": "The Invisible Man",
+        "author": "H.G. Wells"
+    },
+    {
+        "title": "Dr. Jekyll and Mr. Hyde",
+        "author": "Robert Louis Stevenson"
+    },
+    {
+        "title": "Journey to the Center of the Earth",
+        "author": "Jules Verne"
+    },
+    {
+        "title": "The War of the Worlds",
+        "author": "H.G. Wells"
+    },
+    {
+        "title": "The Old Man and the Sea",
+        "author": "Ernest Hemingway"
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee"
+    },
+    {
+        "title": "The Time Machine",
+        "author": "H.G. Wells"
+    },
+    {
+        "title": "The Call of the Wild",
+        "author": "Jack London"
+    },
+    {
+        "title": "Alice's Adventures in Wonderland",
+        "author": "Lewis Carroll"
+    },
+    {
+        "title": "The Jungle Book",
+        "author": "Rudyard Kipling"
+    },
+    {
+        "title": "A Midsummer Night's Dream",
+        "author": "William Shakespeare"
+    },
+    {
+        "title": "Hamlet",
+        "author": "William Shakespeare"
+    },
+    {
+        "title": "Macbeth",
+        "author": "William Shakespeare"
+    },
+    {
+        "title": "The Merchant of Venice",
+        "author": "William Shakespeare"
+    },
+    {
+        "title": "The Taming of the Shrew",
+        "author": "William Shakespeare"
+    },
+    {
+        "title": "Romeo and Juliet",
+        "author": "William Shakespeare"
+    },
+    {
+        "title": "King Lear",
+        "author": "William Shakespeare"
+    },
+    {
+        "title": "Othello",
+        "author": "William Shakespeare"
+    },
+    {
+        "title": "Julius Caesar",
+        "author": "William Shakespeare"
+    },
+    {
+        "title": "The Tempest",
+        "author": "William Shakespeare"
+    },
+    {
+        "title": "Twelfth Night",
+        "author": "William Shakespeare"
+    },
+    {
+        "title": "A Clockwork Orange",
+        "author": "Anthony Burgess"
+    },
+    {
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury"
+    },
+    {
+        "title": "Brave New World",
+        "author": "Aldous Huxley"
+    },
+    {
+        "title": "The Stranger",
+        "author": "Albert Camus"
+    },
+    {
+        "title": "The Trial",
+        "author": "Franz Kafka"
+    },
+    {
+        "title": "Catch-22",
+        "author": "Joseph Heller"
+    },
+    {
+        "title": "Slaughterhouse-Five",
+        "author": "Kurt Vonnegut"
+    },
+    {
+        "title": "The Brothers Karamazov",
+        "author": "Fyodor Dostoevsky"
+    },
+    {
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky"
+    },
+    {
+        "title": "War and Peace",
+        "author": "Leo Tolstoy"
+    },
+    {
+        "title": "Anna Karenina",
+        "author": "Leo Tolstoy"
+    },
+    {
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde"
+    },
+    {
+        "title": "The Adventures of Tom Sawyer",
+        "author": "Mark Twain"
+    },
+    {
+        "title": "The Prince",
+        "author": "Niccolò Machiavelli"
+    },
+    {
+        "title": "The Art of War",
+        "author": "Sun Tzu"
+    },
+    {
+        "title": "The Republic",
+        "author": "Plato"
+    },
+    {
+        "title": "The Iliad",
+        "author": "Homer"
+    },
+    {
+        "title": "The Odyssey",
+        "author": "Homer"
+    },
+    {
+        "title": "The Complete Works of William Shakespeare",
+        "author": "William Shakespeare"
+    },
+    {
+        "title": "Don Quixote",
+        "author": "Miguel de Cervantes"
+    },
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald"
+    },
+    {
+        "title": "Catcher in the Rye",
+        "author": "J.D. Salinger"
+    },
+    {
+        "title": "Gone with the Wind",
+        "author": "Margaret Mitchell"
+    },
+    {
+        "title": "The Help",
+        "author": "Kathryn Stockett"
+    },
+    {
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins"
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien"
+    },
+    {
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien"
+    },
+    {
+        "title": "The Fellowship of the Ring",
+        "author": "J.R.R. Tolkien"
+    },
+    {
+        "title": "The Two Towers",
+        "author": "J.R.R. Tolkien"
+    },
+    {
+        "title": "The Return of the King",
+        "author": "J.R.R. Tolkien"
+    },
+    {
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling"
+    },
+    {
+        "title": "Harry Potter and the Chamber of Secrets",
+        "author": "J.K. Rowling"
+    },
+    {
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "author": "J.K. Rowling"
+    },
+    {
+        "title": "Harry Potter and the Goblet of Fire",
+        "author": "J.K. Rowling"
+    },
+    {
+        "title": "Harry Potter and the Order of the Phoenix",
+        "author": "J.K. Rowling"
+    },
+    {
+        "title": "Harry Potter and the Half-Blood Prince",
+        "author": "J.K. Rowling"
+    },
+    {
+        "title": "Harry Potter and the Deathly Hallows",
+        "author": "J.K. Rowling"
+    },
+    {
+        "title": "The Diary of a Young Girl",
+        "author": "Anne Frank"
+    },
+    {
+        "title": "Murder on the Orient Express",
+        "author": "Agatha Christie"
+    },
+    {
+        "title": "The Secret Garden",
+        "author": "Frances Hodgson Burnett"
+    },
+    {
+        "title": "The Jungle",
+        "author": "Upton Sinclair"
+    },
+    {
+        "title": "Treasure Island",
+        "author": "Robert Louis Stevenson"
+    },
+    {
+        "title": "The Swiss Family Robinson",
+        "author": "Johann David Wyss"
+    },
+    {
+        "title": "The Three Musketeers",
+        "author": "Alexandre Dumas"
+    },
+    {
+        "title": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas"
+    },
+    {
+        "title": "The Little Prince",
+        "author": "Antoine de Saint-Exupéry"
+    },
+    {
+        "title": "Les Misérables",
+        "author": "Victor Hugo"
+    },
+    {
+        "title": "The Scarlet Pimpernel",
+        "author": "Baroness Orczy"
+    },
+    {
+        "title": "The Secret Garden",
+        "author": "Frances Hodgson Burnett"
+    },
+    {
+        "title": "The Tale of Peter Rabbit",
+        "author": "Beatrix Potter"
+    },
+    {
+        "title": "The Adventures of Pinocchio",
+        "author": "Carlo Collodi"
+    },
+    {
+        "title": "The Wind in the Willows",
+        "author": "Kenneth Grahame"
+    },
+    {
+        "title": "The Wizard of Oz",
+        "author": "L. Frank Baum"
+    },
+    {
+        "title": "The Wonderful Wizard of Oz",
+        "author": "L. Frank Baum"
+    },
+    {
+        "title": "The Great Adventures of Sherlock Holmes",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Lost World",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Sign of Four",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Hound of the Baskervilles",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Return of Sherlock Holmes",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Engineer's Thumb",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Speckled Band",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Blue Carbuncle",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Musgrave Ritual",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Abbey Grange",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Noble Bachelor",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Beryl Coronet",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Dancing Men",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Solitary Cyclist",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Red Circle",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Six Napoleons",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Three Garridebs",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Engineer's Thumb",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Final Problem",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Empty House",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Illustrious Client",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Blanched Soldier",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Adventure of the Mazarin Stone",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "The Last of the Mohicans",
+        "author": "James Fenimore Cooper"
+    },
+    {
+        "title": "The Spy",
+        "author": "James Fenimore Cooper"
+    },
+    {
+        "title": "The Pilot",
+        "author": "James Fenimore Cooper"
+    },
+    {
+        "title": "The Pioneers",
+        "author": "James Fenimore Cooper"
+    },
+    {
+        "title": "The Deerslayer",
+        "author": "James Fenimore Cooper"
+    },
+    {
+        "title": "The Prairie",
+        "author": "James Fenimore Cooper"
+    },
+    {
+        "title": "The Sea Lions",
+        "author": "James Fenimore Cooper"
+    },
+    {
+        "title": "The Two Admirals",
+        "author": "James Fenimore Cooper"
+    },
+    {
+        "title": "The Heads of the Family",
+        "author": "James Fenimore Cooper"
+    },
+    {
+        "title": "Homeward Bound",
+        "author": "James Fenimore Cooper"
+    },
+    {
+        "title": "The Way of the World",
+        "author": "William Congreve"
+    },
+    {
+        "title": "The Country Wife",
+        "author": "William Wycherley"
+    },
+    {
+        "title": "The Recruiting Officer",
+        "author": "George Farquhar"
+    },
+    {
+        "title": "The Beggar's Opera",
+        "author": "John Gay"
+    },
+    {
+        "title": "The School for Scandal",
+        "author": "Richard Brinsley Sheridan"
+    },
+    {
+        "title": "The Rivals",
+        "author": "Richard Brinsley Sheridan"
+    },
+    {
+        "title": "The Critic",
+        "author": "Richard Brinsley Sheridan"
+    },
+    {
+        "title": "The Man of Mode",
+        "author": "George Etherege"
+    },
+    {
+        "title": "The Beaux' Stratagem",
+        "author": "George Farquhar"
+    },
+    {
+        "title": "The Gamester",
+        "author": "Edward Moore"
+    },
+    {
+        "title": "The Connoisseur",
+        "author": "William Makepeace Thackeray"
+    },
+    {
+        "title": "The History of Pendennis",
+        "author": "William Makepeace Thackeray"
+    },
+    {
+        "title": "The Newcomes",
+        "author": "William Makepeace Thackeray"
+    },
+    {
+        "title": "The Virginians",
+        "author": "William Makepeace Thackeray"
+    },
+    {
+        "title": "The Adventures of Major Gahagan",
+        "author": "William Makepeace Thackeray"
+    },
+    {
+        "title": "The History of Henry Esmond",
+        "author": "William Makepeace Thackeray"
+    },
+    {
+        "title": "The History of Pendennis",
+        "author": "William Makepeace Thackeray"
+    },
+    {
+        "title": "The Great Adventures of Sherlock Holmes",
+        "author": "Arthur Conan Doyle"
+    },
+    {
+        "title": "Huckleberry Finn",
+        "author": "Mark Twain"
+    },
+    {
+        "title": "The Adventures of Tom Sawyer",
+        "author": "Mark Twain"
+    },
+    {
+        "title": "The Prince and the Pauper",
+        "author": "Mark Twain"
+    },
+    {
+        "title": "The Celebrated Jumping Frog of Calaveras County",
+        "author": "Mark Twain"
+    },
+    {
+        "title": "The Gilded Age",
+        "author": "Mark Twain"
+    },
+    {
+        "title": "Roughing It",
+        "author": "Mark Twain"
+    },
+    {
+        "title": "The Tragedy of Pudd'nhead Wilson",
+        "author": "Mark Twain"
+    },
+    {
+        "title": "The Innocents Abroad",
+        "author": "Mark Twain"
+    },
+    {
+        "title": "A Connecticut Yankee in King Arthur's Court",
+        "author": "Mark Twain"
+    },
+    {
+        "title": "The Adventures of Baron Munchausen",
+        "author": "Rudolph Erich Raspe"
+    },
+    {
+        "title": "The History of Tom Jones",
+        "author": "Henry Fielding"
+    },
+    {
+        "title": "The Life and Opinions of Tristram Shandy",
+        "author": "Laurence Sterne"
+    },
+    {
+        "title": "The Vicar of Wakefield",
+        "author": "Oliver Goldsmith"
+    },
+    {
+        "title": "The History of Pendennis",
+        "author": "William Makepeace Thackeray"
+    },
+    {
+        "title": "The Life of Samuel Johnson",
+        "author": "James Boswell"
+    },
+    {
+        "title": "The Complete Works of Jonathan Swift",
+        "author": "Jonathan Swift"
+    },
+    {
+        "title": "The Federalist Papers",
+        "author": "Alexander Hamilton"
+    },
+    {
+        "title": "The Constitution of the United States",
+        "author": "James Madison"
+    },
+    {
+        "title": "The Diary of Samuel Pepys",
+        "author": "Samuel Pepys"
+    },
+    {
+        "title": "The Life of Charlotte Brontë",
+        "author": "Elizabeth Gaskell"
+    },
+    {
+        "title": "The Complete Works of Edgar Allan Poe",
+        "author": "Edgar Allan Poe"
+    },
+    {
+        "title": "The Pilgrim's Progress",
+        "author": "John Bunyan"
+    },
+    {
+        "title": "The History of the Decline and Fall of the Roman Empire",
+        "author": "Edward Gibbon"
+    },
+    {
+        "title": "The Critique of Pure Reason",
+        "author": "Immanuel Kant"
+    },
+    {
+        "title": "The Prince",
+        "author": "Niccolò Machiavelli"
+    },
+    {
+        "title": "The Communist Manifesto",
+        "author": "Karl Marx"
+    },
+    {
+        "title": "The Wealth of Nations",
+        "author": "Adam Smith"
+    },
+    {
+        "title": "The Republic",
+        "author": "Plato"
+    },
+    {
+        "title": "The Confessions of St. Augustine",
+        "author": "St. Augustine"
+    },
+    {
+        "title": "The Golden Ass",
+        "author": "Apuleius"
+    },
+    {
+        "title": "The Aeneid",
+        "author": "Virgil"
+    },
+    {
+        "title": "The History of the Peloponnesian War",
+        "author": "Thucydides"
+    },
+    {
+        "title": "The Iliad",
+        "author": "Homer"
+    },
+    {
+        "title": "The Odyssey",
+        "author": "Homer"
+    },
+    {
+        "title": "The Dialogues of Plato",
+        "author": "Plato"
+    },
+    {
+        "title": "The Ecclesiastical History of the English People",
+        "author": "Bede"
+    },
+    {
+        "title": "The Decline and Fall of the Roman Empire",
+        "author": "Edward Gibbon"
+    },
+    {
+        "title": "The History of the Crusades",
+        "author": "Steven Runciman"
+    },
+    {
+        "title": "The Birth of the Republic",
+        "author": "Edmund S. Morgan"
+    },
+    {
+        "title": "The War of the World",
+        "author": "Niall Ferguson"
+    },
+    {
+        "title": "The Origins of the Second World War",
+        "author": "A.J.P. Taylor"
+    },
+    {
+        "title": "The History of England",
+        "author": "Thomas Macaulay"
+    },
+    {
+        "title": "The History of the French Revolution",
+        "author": "Thomas Carlyle"
+    },
+    {
+        "title": "The Decline of the West",
+        "author": "Oswald Spengler"
+    },
+    {
+        "title": "The Story of the Malakand Field Force",
+        "author": "Winston S. Churchill"
+    },
+    {
+        "title": "The Battle of Waterloo",
+        "author": "G.G. Napier"
+    },
+    {
+        "title": "The History of the Peloponnesian War",
+        "author": "Thucydides"
+    },
+    {
+        "title": "A Game of Thrones",
+        "author": "George R.R. Martin"
+    },
+    {
+        "title": "A Clash of Kings",
+        "author": "George R.R. Martin"
+    },
+    {
+        "title": "A Storm of Swords",
+        "author": "George R.R. Martin"
+    },
+    {
+        "title": "A Feast for Crows",
+        "author": "George R.R. Martin"
+    },
+    {
+        "title": "A Dance with Dragons",
+        "author": "George R.R. Martin"
+    },
+    {
+        "title": "Fire & Blood",
+        "author": "George R.R. Martin"
+    },
+    {
+        "title": "The Hedge Knight",
+        "author": "George R.R. Martin"
+    },
+    {
+        "title": "The Sworn Sword",
+        "author": "George R.R. Martin"
+    },
+    {
+        "title": "The Mystery Knight",
+        "author": "George R.R. Martin"
+    },
+    {
+        "title": "Na Drini cuprija",
+        "author": "Ivo Andric"
+    },
+    {
+        "title": "Seobe",
+        "author": "Milos Crnjanski"
+    },
+    {
+        "title": "Prokleta avlija",
+        "author": "Ivo Andric"
+    },
+    {
+        "title": "Dervis i smrt",
+        "author": "Mesa Selimovic"
+    },
+    {
+        "title": "Tvrdjava",
+        "author": "Mesa Selimovic"
+    },
+    {
+        "title": "Pokusaj samoubistva",
+        "author": "Ivo Andric"
+    },
+    {
+        "title": "Kostana",
+        "author": "Bora Stankovic"
+    },
+    {
+        "title": "Ciganin, ali najlepši",
+        "author": "Milan Kundera"
+    },
+    {
+        "title": "Pisma iz 1920",
+        "author": "Milos Crnjanski"
+    },
+    {
+        "title": "Miris kise na Balkanu",
+        "author": "Robert J. J. Lowe"
+    },
+    {
+        "title": "Uspavanka za Alise",
+        "author": "Borisav Stankovic"
+    },
+    {
+        "title": "Ispovest",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Knjiga o Mileni",
+        "author": "Milan Jovanovic"
+    },
+    {
+        "title": "Zlatni brod",
+        "author": "Ivo Andric"
+    },
+    {
+        "title": "U vocu",
+        "author": "Andric, Ivo"
+    },
+    {
+        "title": "Sava",
+        "author": "Vladan Desnica"
+    },
+    {
+        "title": "Sveti Georgije ubija azdahu",
+        "author": "David Albahari"
+    },
+    {
+        "title": "Ostrvo",
+        "author": "Predrag Matvejevic"
+    },
+    {
+        "title": "Otvoreni grad",
+        "author": "Ivo Andric"
+    },
+    {
+        "title": "Odlazak",
+        "author": "Branimir Stulic"
+    },
+    {
+        "title": "Gorki",
+        "author": "Goran Simic"
+    },
+    {
+        "title": "Brdo iznad mora",
+        "author": "Mihajlo Pantic"
+    },
+    {
+        "title": "Obavestajna sluzba",
+        "author": "Alija Sirotanovic"
+    },
+    {
+        "title": "Za zivot da ne bih voleo",
+        "author": "Ivo Andric"
+    },
+    {
+        "title": "Proslost",
+        "author": "Petar Kosic"
+    },
+    {
+        "title": "Radjanje",
+        "author": "Marko Vidojkovic"
+    },
+    {
+        "title": "Otac",
+        "author": "Borisav Stankovic"
+    },
+    {
+        "title": "Nekrolog",
+        "author": "Darko Cvjetinovic"
+    },
+    {
+        "title": "Balkan",
+        "author": "Slavko Jovanovic"
+    },
+    {
+        "title": "Polje",
+        "author": "Dusan Kovacevic"
+    },
+    {
+        "title": "Nebo",
+        "author": "Branko Copic"
+    },
+    {
+        "title": "Ljubav",
+        "author": "Borisav Stankovic"
+    },
+    {
+        "title": "Vladalac",
+        "author": "Mirko Kovac"
+    },
+    {
+        "title": "San",
+        "author": "Borisav Stankovic"
+    },
+    {
+        "title": "Izgubljeni",
+        "author": "Vladislav Bajac"
+    },
+    {
+        "title": "Dusa",
+        "author": "Alija Sirotanovic"
+    },
+    {
+        "title": "Opomena",
+        "author": "Stefan Zweig"
+    },
+    {
+        "title": "Slovo na tabli",
+        "author": "Petar Kosic"
+    },
+    {
+        "title": "Osudjeni",
+        "author": "Borislav Pekic"
+    },
+    {
+        "title": "Tajna ruze",
+        "author": "Alija Sirotanovic"
+    },
+    {
+        "title": "Bojna",
+        "author": "Predrag Matvejevic"
+    },
+    {
+        "title": "Igra",
+        "author": "Ivo Andric"
+    },
+    {
+        "title": "Poslednja karta",
+        "author": "Mirko Kovac"
+    },
+    {
+        "title": "Zaborav",
+        "author": "Borislav Pekic"
+    },
+    {
+        "title": "Tama",
+        "author": "Ivo Andric"
+    },
+    {
+        "title": "Jesenji dani",
+        "author": "Milan Jovanovic"
+    },
+    {
+        "title": "Hajduk",
+        "author": "Branko Copic"
+    },
+    {
+        "title": "Srpski svet",
+        "author": "David Albahari"
+    },
+    {
+        "title": "Murder on the Orient Express",
+        "author": "Agatha Christie"
+    },
+    {
+        "title": "The Murder of Roger Ackroyd",
+        "author": "Agatha Christie"
+    },
+    {
+        "title": "And Then There Were None",
+        "author": "Agatha Christie"
+    },
+    {
+        "title": "Death on the Nile",
+        "author": "Agatha Christie"
+    },
+    {
+        "title": "The ABC Murders",
+        "author": "Agatha Christie"
+    },
+    {
+        "title": "The Mysterious Affair at Styles",
+        "author": "Agatha Christie"
+    },
+    {
+        "title": "Evil Under the Sun",
+        "author": "Agatha Christie"
+    },
+    {
+        "title": "The Body in the Library",
+        "author": "Agatha Christie"
+    },
+    {
+        "title": "The Secret Adversary",
+        "author": "Agatha Christie"
+    },
+    {
+        "title": "Peril at End House",
+        "author": "Agatha Christie"
+    },
+    {
+        "title": "Tvrdzava",
+        "author": "Mesa Selimovic"
+    },
+    {
+        "title": "Pismo iz 1920",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Porodicni ciklus",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Basta, pepeo",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Pescanik",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Porodicni ciklus",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Roman o Londonu",
+        "author": "Milos Crnjanski"
+    },
+    {
+        "title": "Pismo iz 1920",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Porodicni ciklus",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Basta, pepeo",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Pescanik",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Porodicni ciklus",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Roman o Londonu",
+        "author": "Milos Crnjanski"
+    },
+    {
+        "title": "Pismo iz 1920",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Porodicni ciklus",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Basta, pepeo",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Pescanik",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Porodicni ciklus",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Roman o Londonu",
+        "author": "Milos Crnjanski"
+    },
+    {
+        "title": "Pismo iz 1920",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Porodicni ciklus",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Basta, pepeo",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Pescanik",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Porodicni ciklus",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Roman o Londonu",
+        "author": "Milos Crnjanski"
+    },
+    {
+        "title": "Pismo iz 1920",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Porodicni ciklus",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Basta, pepeo",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Pescanik",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Porodicni ciklus",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Roman o Londonu",
+        "author": "Milos Crnjanski"
+    },
+    {
+        "title": "Pismo iz 1920",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Porodicni ciklus",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Basta, pepeo",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Pescanik",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Porodicni ciklus",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Roman o Londonu",
+        "author": "Milos Crnjanski"
+    },
+    {
+        "title": "Pismo iz 1920",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Porodicni ciklus",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Basta, pepeo",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Pescanik",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Porodicni ciklus",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Roman o Londonu",
+        "author": "Milos Crnjanski"
+    },
+    {
+        "title": "Pismo iz 1920",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Porodicni ciklus",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Basta, pepeo",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Pescanik",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Porodicni ciklus",
+        "author": "Danilo Kis"
+    },
+    {
+        "title": "Roman o Londonu",
+        "author": "Milos Crnjanski"
+    },
+    {
+        "title": "Pismo iz 1920",
+        "author": "Danilo Kis"
+    }
+]

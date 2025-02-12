@@ -1,0 +1,26 @@
+$textColor: #F8F8F8;
+$headerColor: #FFFF;
+$inputTextColor: #0C0C0C;
+$inputColor: #D9D9D9;
+$addToUnreadBtn: #D7701A;
+$addToReadBtn: #186BC3;
+$moveToReadBtn: #009632;
+$deleteBtn: #9E3A3A;
+$addNotesBtn: #009688;
+$activeFavoriteBtn: #fad60d;
+$unActiveFavoriteBtn: #C0C0C0;
+$unSelectedTableNav: rgba(187, 187, 187, 0.7);
+$popUpBackgroundColor: rgba(0, 0, 0, 0.7);
+$selectedTableNav: rgb(0, 255, 242);
+
+
+@mixin flexCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin button() {
+    @include flexCenter();
+    @extend .button !optional;
+}
