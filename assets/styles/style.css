@@ -89,6 +89,7 @@ a:hover::after {
 
 body {
   height: 120dvh;
+  background-color: #1E1E1E;
   background-image: url(../pictures/bcgPic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
