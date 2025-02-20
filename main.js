@@ -17,6 +17,17 @@ class Notes {
 }
 
 class UI {
+    static escapeHTML(str) {
+        return str.replace(/[&<>"']/g, function (match) {
+            return ({
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#39;'
+            })[match];
+        });
+    }
 
     static defoultListShow() {
         readList.forEach(book => {
@@ -103,7 +114,7 @@ class UI {
         element.innerHTML = `
                 <td class="titleTd">
                     <div class="titleTdBox">
-                      ${book.title}
+                      ${UI.escapeHTML(book.title)} 
                       <svg class = ${toggleFavoriteClass}  width="24" height="24" viewBox="0 0 32 32" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path 
@@ -112,7 +123,7 @@ class UI {
                       </svg>
                     </div>
                   </td>
-                  <td class="authorTd">${book.author}</td>
+                  <td class="authorTd">${UI.escapeHTML(book.author)}</td>
                   <td class="addToReadTd">
                     <div class="tableBtnBox">
                       <button class="${btnTypeClass} ">${btnType}</button>
@@ -126,6 +137,8 @@ class UI {
                   </td>
     
         `
+        console.log(UI.escapeHTML(book.title));
+
     }
 
     static deleteBook(target) {
@@ -517,6 +530,8 @@ let avalibleRecommendations = []
 const allNotesKey = 'allNotes'
 let allNotes = []
 
+console.log(UI.escapeHTML('<img src="#" onerror="alert(\'hacked\')">'));
+
 
 
 if (localStorage.getItem(avalibleRecommendationsKey)) {
@@ -679,5 +694,5 @@ document.getElementById('libraryForm').addEventListener('keydown', e => {
 
 
 
-// localStorage.clear() ovde za testiranje
+// localStorage.clear()
 
