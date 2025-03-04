@@ -44,7 +44,7 @@ class UI {
         const soundBtn = document.getElementById('soundBtn')
         const noSoundBtn = document.getElementById('noSoundBtn')
 
-        const backgroundSong = 'assets/audio/jazzyfrenchy.mp3'
+        const backgroundSong = 'assets/audio/backgroundMusic.mp3'
 
         const backgroundSound = new Audio(backgroundSong)
 
@@ -137,7 +137,7 @@ class UI {
                   </td>
     
         `
-        console.log(UI.escapeHTML(book.title));
+
 
     }
 
@@ -147,24 +147,23 @@ class UI {
             const title = row.querySelector('.titleTdBox').textContent.trim()
             const author = row.querySelector('.authorTd').textContent.trim()
             localStorage.getItem(allNotesKey, allNotes)
-            // const book = new Book(title, author)
-            // console.log(book);
+
+
 
             let index
 
             if (target.classList.contains('readList')) {
                 const book = readList.find(b => b.title == title && b.author == author);
                 note = allNotes.findIndex(n => n.id == book.id);
-                // console.log(note);
+
 
 
 
                 index = readList.findIndex(b => b.title == book.title && b.author == book.author)
                 readList.splice(index, 1)
                 allNotes.splice(note, 1)
-                // console.log(allNotes);
 
-                // console.log(readList);
+
                 UI.addToLocalStorage(allNotesKey, allNotes)
                 UI.addToLocalStorage(readListKey, readList)
             }
@@ -198,7 +197,7 @@ class UI {
 
                 index = avalibleRecommendations.findIndex(b => b.title == book.title && b.author == book.author)
                 avalibleRecommendations.splice(index, 1)
-                console.log('ovo su avalible recommendations', avalibleRecommendations);
+
 
                 UI.addToLocalStorage(avalibleRecommendationsKey, avalibleRecommendations)
             }
@@ -217,7 +216,7 @@ class UI {
             const index = listTypeFrom.findIndex(b => b.title == book.title && b.author == book.author);
 
             listTypeFrom.splice(index, 1)
-            console.log(book.id);
+
 
 
 
@@ -295,7 +294,7 @@ class UI {
             const index = readList.findIndex(b => b.title == book.title && b.author == book.author);
 
             readList.splice(index, 1)
-            // console.log(book.id);
+
 
 
 
@@ -316,7 +315,7 @@ class UI {
             const index = favoriteList.findIndex(b => b.title == book.title && b.author == book.author);
 
             favoriteList.splice(index, 1)
-            // console.log(book.id);
+
 
 
 
@@ -349,8 +348,8 @@ class UI {
 
     static updateCurrentPage(newPage) {
         currentPage = newPage;
-        localStorage.setItem('currentPage', currentPage); // Store updated page
-        pageCounter.innerHTML = `Strana ${currentPage + 1}`; // Update the page counter in the UI
+        localStorage.setItem('currentPage', currentPage);
+        pageCounter.innerHTML = `Strana ${currentPage + 1}`;
     }
 
 
@@ -530,7 +529,7 @@ let avalibleRecommendations = []
 const allNotesKey = 'allNotes'
 let allNotes = []
 
-console.log(UI.escapeHTML('<img src="#" onerror="alert(\'hacked\')">'));
+
 
 
 
@@ -570,7 +569,7 @@ UI.tutorialHandeler()
 UI.notesHandeler()
 
 
-// UI.playAndMuteBacgroundMusic() ovo je funkcija za pustanje muzike
+UI.playAndMuteBacgroundMusic()
 
 const addToReadBtn = document.getElementById('addToReadBtn')
 const addToUnreadBtn = document.getElementById('addToUnreadBtn')
