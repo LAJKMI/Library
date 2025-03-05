@@ -4,4 +4,4 @@ The best part? It works with local storage, meaning users don't need to create a
 
 You can see a preview of how the website looks in this video (please note that it's not yet deployed): 
 
-website preview: https://www.youtube.com/watch?v=5oddJgELcWo
+website preview: https://www.youtube.com/watch?v=1SEbBFKrrPQ
